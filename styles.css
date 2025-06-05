@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4189c;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .contenedor {
+    background-color: #c4189c;
+    max-width: 500px;
+   
+    padding: 30px;
+    
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
+  label, p {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .botones-genero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .botones-genero button {
+    flex: 1;
+    padding: 10px;
+    border: black;
+    background-color: #e6eaed;
+    color: rgb(20, 18, 18);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botones-genero button:hover {
+    background-color: #2980b9;
+  }
+  
+  #recomendarBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #recomendarBtn:hover {
+    background-color: #27ae60;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¡</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Yael Villafranco </h1>
+    <h1>!Bienvenidos al cine¡</h1>
+    <label for="edad">Ingresa tu edad para hacer una recomendacion de pelicula basado en tu genero preferido:</label>
+    <input type="number" id="edad" placeholder="Ej. 15" min="1" />
+
+    <p>Selecciona un género:</p>
+    <div class="botones-genero">
+      <button onclick="seleccionarGenero('Drama')">Drama</button>
+      <button onclick="seleccionarGenero('Comedia')">Comedia</button>
+      <button onclick="seleccionarGenero('Musical')">Musical</button>
+      <button onclick="seleccionarGenero('Crimen')">Crimen</button>
+    </div>
+
+    <button id="recomendarBtn" onclick="recomendarPelicula()">Recomendar Película</button>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="funcion.js"></script>
+</body>
+</html>
